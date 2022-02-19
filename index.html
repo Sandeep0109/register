@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> 
+    <link rel="stylesheet" href="index.css">
+</head>
+<body> 
+    <div class="maincontainer">
+        <div class="innercontainer"> 
+        <h1 class="regis">Registration Form</h1>
+            <div>
+                <label class="nameDiv">Name:</label><br>
+                <input class="buttondiv"type="text" id="name"  onfocus="focusFunction(this)"><br><br>
+            </div> 
+            <div>
+                <label class="nameDiv">Password:</label><br>
+                <input class="buttondiv" type="password" id="pwd" onfocus="focusFunction(this)" ><br><br>
+            </div> 
+             <div>
+                <label class="nameDiv">Email:</label><br>
+                <input class="buttondiv" type="email" id="email" onfocus="focusFunction(this)"><br><br>
+            </div>
+            <div>
+                <label class="nameDiv">Address:</label><br>
+                <input class="buttondiv" type="Address" id="address" onfocus="focusFunction(this)"><br><br>
+            </div>
+            <div>
+                <label class="nameDiv">Mob:</label><br>
+                <input class="buttondiv" type="tel" id="phone" onfocus="focusFunction(this)"><br><br>
+            </div>   
+            <div class="div1">
+                <label  class="gender">Gender:</label> 
+                <input class="button" type="radio" id="male" name="fav_language"  onfocus="focusFunction(this)">
+                <label   class="label">Male</label>
+                <input class="button" type="radio" id="female" name="fav_language" value="female">
+                <label   class="label">Female</label>
+            </div> 
+            <div class="label2">
+                <label class="">Country</label>
+                <select id=""onfocus="focusFunction(this)">
+                <option value="">India</option>
+                <option value="">Pakistan</option>
+                <option value="">Australia</option>
+                <option value="">Bangladesh</option>
+                </select>
+            </div> 
+            <div>
+                <button class="buttonme" id="submitbutton"   type="button" onfocus="focusFunction(this)">Click me</button>
+           </div>           
+        </div>
+    </div>
+    
+    <script src="javascript.js"></script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+.maincontainer{
+    height: 100vh;
+    max-width: 100%;
+    /* background-color: blue; */
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.innercontainer{
+    height: 630px;
+    width:500px;
+    background-color: chocolate;
+}
+.regis{
+    font-size: 30px;
+    color: darkgreen;
+}
+.nameDiv{
+    font-size: 25px;
+    color: darkgreen;
+    margin-right: 420px;
+}
+.buttondiv{
+    font-size: 30px;
+    color: darkgreen;
+    margin-right: 110px;
+}
+
+
+.buttonme{
+    font-size: 30px;
+    color:darkorange;
+    margin-top: 30px;
+}
+.label{
+    font-size: 25px;
+    color: darkgreen;
+}
+.div1{
+    margin-right: 200px;
+}
+.label2{
+    font-size: 25px;
+    color: darkgreen;
+    margin-right: 270px;
+}
+.gender{
+    font-size: 25px;
+    color: darkgreen;
+}
